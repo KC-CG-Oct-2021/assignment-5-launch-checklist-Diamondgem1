@@ -98,8 +98,8 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
         return planets [index];
     }
     
-    function showAlert(message) {
-        try{ window.alert(message);
+    function showAlert(alertMessage) {
+        try{ window.alert(alertMessage);
     } catch(error){};
     }
        
